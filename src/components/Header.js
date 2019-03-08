@@ -21,6 +21,9 @@ const Header = props => (
     <nav>
       <ul>
         <li>
+          <a href="/artists">Artists</a>
+        </li>
+        <li>
           <a
             href="javascript:;"
             onClick={() => {

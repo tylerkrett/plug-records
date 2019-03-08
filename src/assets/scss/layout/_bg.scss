@@ -13,7 +13,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
   z-index: 1;
 
   &:before,
@@ -76,5 +75,29 @@
     &:before {
       background-color: _palette(bg-alt);
     }
+  }
+}
+
+#bgtwo {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  @include vendor('transform', 'scale(1.125)');
+  @include vendor(
+    'transition',
+    (
+      'transform #{_duration(article)} ease-in-out',
+      'filter #{_duration(article)} ease-in-out'
+    )
+  );
+  background-image: url('../../images/thumbnail_fredo_image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include breakpoint(small) {
+    background-image: url('../../images/thumbnail_fredo_mobile.jpg');
   }
 }

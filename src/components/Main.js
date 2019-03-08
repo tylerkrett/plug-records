@@ -129,10 +129,6 @@ class Main extends React.Component {
               VENUE: THE DOCK, AGIA THEKLA RD AYIA NAPA, CYPRUS (A TT ACHED TO
               WA TERWORLD WATER PARK) TIMES: 5PM - MIDNIGHT PROJECTED LINE UP
             </p>
-            <p>
-              PROJECTED LINEUP: YOUNG THUG GUNNA FREDO, YXNG BANE, SNIPER, M
-              HUNCHO, D BLOCK, CHARLIE SLOTH
-            </p>
           </span>
           {close}
         </article>
