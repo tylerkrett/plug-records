@@ -8,7 +8,18 @@ import pic04 from '../images/thumbnail_computerScreen.jpg'
 import pic05 from '../images/socialmedia.png'
 import pic06 from '../images/sponsorlist.png'
 import pic07 from '../images/thumbnail_SPONSORS.jpg'
+
+var po = document.createElement('script')
+po.type = 'text/javascript'
+po.async = true
+po.src =
+  'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13490591;type=embedded'
+var s = document.getElementsByTagName('script')[0]
+s.parentNode.insertBefore(po, s)
+
 class Main extends React.Component {
+
+
   render() {
     let close = (
       <div
@@ -199,6 +210,8 @@ class Main extends React.Component {
             </a>
           </p>
 
+
+
           {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -238,6 +251,25 @@ class Main extends React.Component {
               </a>
             </li>
           </ul>
+          {close}
+        </article>
+        <article
+          id="tickets"
+          className={`${this.props.article === 'tickets' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Ticket Sales</h2>
+          <div id="ticketbox_ph_13490591" style={{ width: '100%' }}>
+              <p>
+                To buy tickets for this event please visit our events page:{' '}
+                <a href="https://www.skiddle.com/whats-on/cyprus/The-Dock/Plug-Nation-Festival/13490591/">
+                  <strong>Plug Nation Festival tickets from Skiddle</strong>
+                </a>
+                .
+              </p>
+            </div>
           {close}
         </article>
       </div>
