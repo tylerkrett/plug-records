@@ -5,7 +5,6 @@ import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
 
-
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
@@ -95,7 +94,6 @@ class IndexPage extends React.Component {
           }`}
         >
           <div id="wrapper">
-          
             <Header
               onOpenArticle={this.handleOpenArticle}
               timeout={this.state.timeout}

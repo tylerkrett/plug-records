@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const window = window || {}
+
 window.fnames = new Array()
 window.ftypes = new Array()
 window.fnames[0] = 'EMAIL'
