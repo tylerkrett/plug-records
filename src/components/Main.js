@@ -8,6 +8,7 @@ import pic04 from '../images/thumbnail_computerScreen.jpg'
 import pic05 from '../images/socialmedia.png'
 import pic06 from '../images/sponsorlist.png'
 import pic07 from '../images/thumbnail_SPONSORS.jpg'
+import leafletPic from '../images/leaflet.jpg'
 
 
 
@@ -261,6 +262,9 @@ s.parentNode.insertBefore(po, s)
           style={{ display: 'none' }}
         >
           <h2 className="major">Ticket Sales</h2>
+          <span className="image main">
+            <img src={leafletPic} alt="leaflet" />
+          </span>
           <div id="ticketbox_ph_13490591" style={{ width: '100%' , maxHeight: '50vh'}}>
             <p>
               To buy tickets for this event please visit our events page:{' '}
