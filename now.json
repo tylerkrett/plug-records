@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "PlugNationFestival",
-  "alias": ["plugnationfestival.com", "www.plugnationfestival.com"],
   "regions": ["all"],
   "builds": [
     {
