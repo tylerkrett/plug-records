@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
+import '../assets/scss/main.scss'
+
 class ThirdPage extends Component {
   componentDidMount() {
     this.initialLoad(
@@ -12,11 +14,10 @@ class ThirdPage extends Component {
     )
   }
 
-  initialLoad(d, sc, u) {
+  initialLoad = (d, sc, u) => {
     var s = d.createElement(sc),
       p = d.getElementsByTagName(sc)[0]
     s.type = 'text/javascript'
-    s.async = true
     s.src = u + '?v=' + +new Date()
     return p.parentNode.insertBefore(s, p)
   }

@@ -99,28 +99,26 @@
       margin: 10px 0;
       width: 400px;
       height: 400px;
-      @media screen  and (max-width: 600px) {
+      @media screen and (max-width: 600px) {
         width: 100%;
-
       }
     }
-  }  
-  > h1 {
-      padding: 20px;
   }
-
+  > h1 {
+    padding: 20px;
+  }
 }
 a.button-link {
   position: sticky;
   bottom: 10px;
   left: 20px;
   background: white;
-  color:black;
+  color: black;
   padding: 10px 15px;
 
-&:hover {
-  opacity: 0.8;
-}
+  &:hover {
+    opacity: 0.8;
+  }
 }
 #travel {
   width: 100vw;
@@ -135,7 +133,7 @@ a.button-link {
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
- 
+
     > div.aroma {
       font-size: 12px;
       display: flex;
@@ -150,8 +148,8 @@ a.button-link {
         width: 120px;
         height: 50px;
         overflow: hidden;
-  
-        > img{
+
+        > img {
           height: 100px;
           width: 100px;
         }
@@ -162,10 +160,8 @@ a.button-link {
         align-items: center;
       }
     }
-   
   }
   > main {
-
     padding: 20px;
     > div.booking-map {
       background: white;
@@ -185,7 +181,6 @@ a.button-link {
           display: none;
         }
       }
-      
     }
   }
   > section.footer {
@@ -196,7 +191,5 @@ a.button-link {
     box-sizing: border-box;
   }
   > h1 {
-
-   
   }
 }
