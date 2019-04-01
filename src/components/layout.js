@@ -34,8 +34,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Plug Nation Festival: Artists from all around the world will be playing on one stage. The audience will see taste-makers from all cultures and backgrounds. The Plug Festival will be a pioneer in the new hybrid music festival culture.' },
+              { name: 'keywords', content: 'Plug,Nation,Music,Festival,Event,Travel,Cyprus,Napa,Holiday,Party,Club,Fun' },
             ]}
           >
             <html lang="en" />

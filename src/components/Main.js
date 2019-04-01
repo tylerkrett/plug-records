@@ -8,20 +8,17 @@ import pic04 from '../images/thumbnail_computerScreen.jpg'
 import pic05 from '../images/socialmedia.png'
 import pic06 from '../images/sponsorlist.png'
 import pic07 from '../images/thumbnail_SPONSORS.jpg'
-import leafletPic from '../images/leaflet.jpg'
-
-
+import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
 
 class Main extends React.Component {
-
   componentDidMount() {
     var po = document.createElement('script')
-po.type = 'text/javascript'
-po.async = true
-po.src =
-  'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13490591;type=embedded'
-var s = document.getElementsByTagName('script')[0]
-s.parentNode.insertBefore(po, s)
+    po.type = 'text/javascript'
+    po.async = true
+    po.src =
+      'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13490591;type=embedded'
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(po, s)
   }
   render() {
     let close = (
@@ -259,13 +256,14 @@ s.parentNode.insertBefore(po, s)
           className={`${this.props.article === 'tickets' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
-          style={{ display: 'none' }}
         >
           <h2 className="major">Ticket Sales</h2>
           <span className="image main">
             <img src={leafletPic} alt="leaflet" />
           </span>
-          <div id="ticketbox_ph_13490591" style={{ width: '100%' , maxHeight: '50vh'}}>
+          <div
+            id="ticketbox_ph_13490591"
+          >
             <p>
               To buy tickets for this event please visit our events page:{' '}
               <a href="https://www.skiddle.com/whats-on/cyprus/The-Dock/Plug-Nation-Festival/13490591/">

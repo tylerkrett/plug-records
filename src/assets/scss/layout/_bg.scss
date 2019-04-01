@@ -80,10 +80,9 @@
 }
 
 #bgtwo {
-  height: 100vh;
   width: 100vw;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url('../../images/thumbnail_fredo_image.jpg');
+  background-image: url('../../images/thumbnail_BACKGROUND.jpg');
   background-repeat: repeat-y;
   background-position: top;
   background-size: cover;
@@ -111,5 +110,84 @@
   }
   > a {
     padding: 0 20px;
+  }
+}
+
+#travel {
+  width: 100vw;
+  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  background-image: url('../../images/thumbnail_BACKGROUND.jpg');
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: cover;
+  > section.travel-header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+ 
+    > div.aroma {
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a.logo {
+        background: rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        width: 120px;
+        height: 50px;
+        overflow: hidden;
+  
+        > img{
+          height: 100px;
+          width: 100px;
+        }
+      }
+      a.discount {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+   
+  }
+  > main {
+
+    padding: 20px;
+    > div.booking-map {
+      background: white;
+    }
+    > div.booking-banner {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 20px;
+      p {
+        margin: 0 10px 0 0;
+      }
+      @include breakpoint(small) {
+        flex-wrap: wrap;
+        flex-direction: column;
+        &.breathe {
+          display: none;
+        }
+      }
+      
+    }
+  }
+  > section.footer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  > h1 {
+
+   
   }
 }

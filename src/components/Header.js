@@ -33,7 +33,6 @@ const Header = props => (
           Plug Festival will be a pioneer in the new hybrid music festival
           culture.
         </p>
-
         <div id="mc_embed_signup">
           <form
             action="https://plugnationfestival.us20.list-manage.com/subscribe/post?u=8564c716dccc4c6cb3180916d&amp;id=8fdd7777fd"
@@ -108,6 +107,9 @@ const Header = props => (
           </a>
         </li>
         <li>
+          <a href="/travel">Travel</a>
+        </li>
+        <li>
           <a
             href="javascript:;"
             onClick={() => {
@@ -127,6 +129,10 @@ const Header = props => (
             Info
           </a>
         </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
         <li>
           <a
             href="javascript:;"
