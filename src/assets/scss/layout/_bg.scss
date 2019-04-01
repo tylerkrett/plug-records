@@ -108,11 +108,20 @@
   > h1 {
       padding: 20px;
   }
-  > a {
-    padding: 0 20px;
-  }
-}
 
+}
+a.button-link {
+  position: sticky;
+  bottom: 10px;
+  left: 20px;
+  background: white;
+  color:black;
+  padding: 10px 15px;
+
+&:hover {
+  opacity: 0.8;
+}
+}
 #travel {
   width: 100vw;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;

@@ -86,8 +86,21 @@ class SecondPage extends Component {
           </div>
           <div className="booking-banner">
             <p>Alion hotel:</p>
-            <ins className="bookingaff" data-aid="1739517" data-target_aid="1739517" data-prod="rw" data-width="0" data-height="0" data-lang="en" data-show_rw_logo="1" data-show_rw_badge="1" data-show_rw_text="1" data-show_rw_border="1" data-right_align_rw="1">
-            <a href="//www.booking.com?aid=1739517">Booking.com</a>
+            <ins
+              className="bookingaff"
+              data-aid="1739517"
+              data-target_aid="1739517"
+              data-prod="rw"
+              data-width="0"
+              data-height="0"
+              data-lang="en"
+              data-show_rw_logo="1"
+              data-show_rw_badge="1"
+              data-show_rw_text="1"
+              data-show_rw_border="1"
+              data-right_align_rw="1"
+            >
+              <a href="//www.booking.com?aid=1739517">Booking.com</a>
             </ins>
           </div>
           <div className="booking-banner">
@@ -151,9 +164,9 @@ class SecondPage extends Component {
             </ins>
           </div>
         </main>
-        <section className="footer">
-          <Link to="/">Go back to the homepage</Link>
-        </section>
+        <Link className="button-link" to="/">
+          Go back to the homepage
+        </Link>
       </div>
     )
   }

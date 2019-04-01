@@ -27,7 +27,9 @@ const SecondPage = () => (
       <img src={dblock} alt="fredo" />
       <img src={amsniper} alt="fredo" />
     </div>
-    <Link to="/">Go back to the homepage</Link>
+    <Link className="button-link" to="/">
+      Go back to the homepage
+    </Link>
   </div>
 )
 

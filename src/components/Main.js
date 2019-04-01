@@ -261,9 +261,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={leafletPic} alt="leaflet" />
           </span>
-          <div
-            id="ticketbox_ph_13490591"
-          >
+          <div id="ticketbox_ph_13490591">
             <p>
               To buy tickets for this event please visit our events page:{' '}
               <a href="https://www.skiddle.com/whats-on/cyprus/The-Dock/Plug-Nation-Festival/13490591/">
