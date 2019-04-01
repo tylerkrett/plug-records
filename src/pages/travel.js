@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-class SecondPage extends Component {
+
+class ThirdPage extends Component {
   componentDidMount() {
     this.initialLoad(
       window.document,
@@ -15,8 +16,9 @@ class SecondPage extends Component {
     s.type = 'text/javascript'
     s.async = true
     s.src = u + '?v=' + +new Date()
-    p.parentNode.insertBefore(s, p)
+    return p.parentNode.insertBefore(s, p)
   }
+
   render() {
     return (
       <div id="travel">
@@ -25,25 +27,26 @@ class SecondPage extends Component {
           <div className="aroma">
             <a
               className="logo"
-              href="http://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
+              href="https://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
               target="_top"
             >
               <img
-                src="http://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
-                alt=""
+                src="https://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
+                alt="logoaroma"
                 border="0"
               />
             </a>
             <a
               className="discount"
-              href="http://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
+              href="https://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
               target="_top"
             >
               <span>Receive 5% off</span>
               <span>code: AMOMA5OFF </span>
             </a>{' '}
             <img
-              src="http://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
+              src="https://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
+              alt="placeholder"
               width="1"
               height="1"
               border="0"
@@ -172,4 +175,4 @@ class SecondPage extends Component {
   }
 }
 
-export default SecondPage
+export default ThirdPage
