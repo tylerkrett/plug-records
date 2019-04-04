@@ -125,8 +125,7 @@ a.button-link {
 }
 #travel {
   width: 100vw;
-  height: 100vh;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  height: 100%;
   background-image: url('../../images/thumbnail_BACKGROUND.jpg');
   background-repeat: repeat-y;
   background-position: top;
@@ -167,6 +166,9 @@ a.button-link {
     }
   .center {
     display: flex;
+    width: 100%;
+    padding: 20px 0;
+    align-items:center;
     justify-content: center;
     flex-direction: column;
   }
@@ -174,12 +176,19 @@ a.button-link {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 40px;
+    
+    @media screen and (max-width: 1200px) {
+      grid-template-columns: 1fr;
+      .breathe {
+        display:none;
+      }
+    }
      div.booking-map {
       background: white;
     }
 
      section.banners-flex {
-     
+      padding: 10px 0;
       > a {
         display: flex;
         justify-content: center;

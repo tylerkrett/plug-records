@@ -39,20 +39,18 @@ class ThirdPage extends Component {
         />
 
         <main>
-          <div className="booking-map">
-            <div className="center">
+          <div>
+            <div className="center breathe">
               <ins
                 className="bookingaff"
                 data-aid="1738565"
                 data-target_aid="1738565"
                 data-prod="banner"
-                data-width="100%"
+                data-width="450px"
                 data-height="60"
                 data-banner_id="82280"
                 data-lang="en"
-              >
-                <a href="//www.booking.com?aid=1738565">Booking.com</a>
-              </ins>
+              />
             </div>
             <div className="booking-map">
               <ins
@@ -74,7 +72,7 @@ class ThirdPage extends Component {
             </div>
           </div>
 
-          <div className="booking-banner">
+          <div className="booking-banner center">
             <ins
               class="bookingaff"
               data-aid="1737049"
@@ -94,6 +92,19 @@ class ThirdPage extends Component {
             </ins>
           </div>
           <div className="center">
+            <section className="banners-flex">
+              <a
+                href="http://www.tkqlhce.com/m3117dlurlt8I9BDBAA8AACFCHBD"
+                target="_blank"
+              >
+                <img
+                  src="http://www.awltovhc.com/fb106jy1qwuFPGIKIHHFHHJMJOIK"
+                  alt="BookingBuddy"
+                  border="0"
+                />
+                <p>Get great deals on flights</p>
+              </a>
+            </section>
             <div className="aroma">
               <a
                 className="logo"
@@ -122,19 +133,6 @@ class ThirdPage extends Component {
                 border="0"
               />
             </div>
-            <section className="banners-flex">
-              <a
-                href="http://www.tkqlhce.com/m3117dlurlt8I9BDBAA8AACFCHBD"
-                target="_blank"
-              >
-                <img
-                  src="http://www.awltovhc.com/fb106jy1qwuFPGIKIHHFHHJMJOIK"
-                  alt="BookingBuddy"
-                  border="0"
-                />
-                <p>Get great deals on flights</p>
-              </a>
-            </section>
           </div>
         </main>
         <Link className="button-link" to="/">
