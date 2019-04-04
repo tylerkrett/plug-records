@@ -166,7 +166,23 @@ a.button-link {
     > div.booking-map {
       background: white;
     }
-    > div.booking-banner {
+
+    > section.banners-flex {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      justify-content: space-between;
+      > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        > p {
+          margin: 0;
+        }
+      }
+    }
+    div.booking-banner {
       display: flex;
       align-items: center;
       justify-content: flex-end;

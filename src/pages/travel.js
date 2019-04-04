@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-
 import '../assets/scss/main.scss'
 
 class ThirdPage extends Component {
@@ -23,61 +21,77 @@ class ThirdPage extends Component {
   }
 
   render() {
-    const { location } = this.props
     return (
-      <Layout location={location}>
-        <div id="travel">
-          <section className="travel-header">
-            <h1>Travel</h1>
-            <div className="aroma">
-              <a
-                className="logo"
-                href="https://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
-                target="_top"
-              >
-                <img
-                  src="https://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
-                  alt="logoaroma"
-                  border="0"
-                />
-              </a>
-              <a
-                className="discount"
-                href="https://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
-                target="_top"
-              >
-                <span>Receive 5% off</span>
-                <span>code: AMOMA5OFF </span>
-              </a>{' '}
+      <div id="travel">
+        <section className="travel-header">
+          <h1>Travel</h1>
+          <div className="aroma">
+            <a
+              className="logo"
+              href="https://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
+              target="_top"
+            >
               <img
-                src="https://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
-                alt="placeholder"
-                width="1"
-                height="1"
+                src="https://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
+                alt="logoaroma"
                 border="0"
               />
-            </div>
-          </section>
-          <main>
-            <div className="booking-map">
-              <ins
-                className="bookingaff"
-                data-aid="1737036"
-                data-target_aid="1737036"
-                data-prod="map"
-                data-width="100%"
-                data-height="590"
-                data-lang="ualng"
-                data-dest_id="0"
-                data-dest_type="landmark"
-                data-latitude="34.9922836"
-                data-longitude="34.0140113"
-                data-mwhsb="0"
-              >
-                <a href="//www.booking.com?aid=1737036">Booking.com</a>
-              </ins>
-            </div>
+            </a>
+            <a
+              className="discount"
+              href="https://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
+              target="_top"
+            >
+              <span>Receive 5% off</span>
+              <span>code: AMOMA5OFF </span>
+            </a>{' '}
+            <img
+              src="https://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
+              alt="placeholder"
+              width="1"
+              height="1"
+              border="0"
+            />
+          </div>
+        </section>
 
+        <img
+          src="http://www.lduhtrp.net/5l115p59y31NXOQSQPPNPQPXTPUS"
+          width="1"
+          height="1"
+          border="0"
+        />
+        <main>
+          <div className="booking-map">
+            <ins
+              className="bookingaff"
+              data-aid="1737036"
+              data-target_aid="1737036"
+              data-prod="map"
+              data-width="100%"
+              data-height="590"
+              data-lang="ualng"
+              data-dest_id="0"
+              data-dest_type="landmark"
+              data-latitude="34.9922836"
+              data-longitude="34.0140113"
+              data-mwhsb="0"
+            >
+              <a href="//www.booking.com?aid=1737036">Booking.com</a>
+            </ins>
+          </div>
+          <section className="banners-flex">
+            <a
+              href="http://www.tkqlhce.com/m3117dlurlt8I9BDBAA8AACFCHBD"
+              target="_blank"
+            >
+              <img
+                src="http://www.awltovhc.com/fb106jy1qwuFPGIKIHHFHHJMJOIK"
+                alt="BookingBuddy"
+                border="0"
+              />
+              <p>Get great deals on flights</p>
+            </a>
             <div className="booking-banner breathe">
               <ins
                 className="bookingaff"
@@ -92,91 +106,32 @@ class ThirdPage extends Component {
                 <a href="//www.booking.com?aid=1738565">Booking.com</a>
               </ins>
             </div>
-            <div className="booking-banner">
-              <p>Alion hotel:</p>
-              <ins
-                className="bookingaff"
-                data-aid="1739517"
-                data-target_aid="1739517"
-                data-prod="rw"
-                data-width="0"
-                data-height="0"
-                data-lang="en"
-                data-show_rw_logo="1"
-                data-show_rw_badge="1"
-                data-show_rw_text="1"
-                data-show_rw_border="1"
-                data-right_align_rw="1"
-              >
-                <a href="//www.booking.com?aid=1739517">Booking.com</a>
-              </ins>
-            </div>
-            <div className="booking-banner">
-              <p>Grecian Bay Hotel:</p>
-              <ins
-                className="bookingaff"
-                data-aid="1742427"
-                data-target_aid="1742427"
-                data-prod="rw"
-                data-width="0"
-                data-height="0"
-                data-lang="en"
-                data-show_rw_logo="1"
-                data-show_rw_badge="1"
-                data-show_rw_text="1"
-                data-show_rw_border="1"
-                data-right_align_rw="1"
-                data-hid="17174"
-              >
-                <a href="//www.booking.com?aid=1742427">Booking.com</a>
-              </ins>
-            </div>
-            <div className="booking-banner">
-              <p>Amethyst Napa Hotel & Spa:</p>
-              <ins
-                className="bookingaff"
-                data-aid="1742420"
-                data-target_aid="1742420"
-                data-prod="rw"
-                data-width="0"
-                data-height="0"
-                data-lang="en"
-                data-show_rw_logo="1"
-                data-show_rw_badge="1"
-                data-show_rw_text="1"
-                data-show_rw_border="1"
-                data-right_align_rw="1"
-                data-hid="2642963"
-              >
-                <a href="//www.booking.com?aid=1742420">Booking.com</a>
-              </ins>
-            </div>
-            <div className="booking-banner">
-              <p>Olympic Lagoon resort:</p>
-              <ins
-                className="bookingaff"
-                data-aid="1742429"
-                data-target_aid="1742429"
-                data-prod="rw"
-                data-width="0"
-                data-height="0"
-                data-lang="en"
-                data-show_rw_logo="1"
-                data-show_rw_badge="1"
-                data-show_rw_text="1"
-                data-show_rw_border="1"
-                data-right_align_rw="1"
-                data-hid="718186"
-              >
-                <a href="//www.booking.com?aid=1742429">Booking.com</a>
-              </ins>
-            </div>
-          </main>
-          <Link className="button-link" to="/">
-            Go back to the homepage
-          </Link>
-        </div>
-      </Layout>
+          </section>
+
+          <div className="booking-banner">
+            <ins
+              class="bookingaff"
+              data-aid="1737049"
+              data-target_aid="1737049"
+              data-prod="dfl2"
+              data-width="100%"
+              data-height="auto"
+              data-lang="en"
+              data-currency="GBP"
+              data-dest_id="-2738120"
+              data-dest_type="city"
+              data-df_checkin="7"
+              data-df_duration="3"
+              data-df_num_properties="5"
+            >
+              <a href="//www.booking.com?aid=1737049">Booking.com</a>
+            </ins>
+          </div>
+        </main>
+        <Link className="button-link" to="/">
+          Go back to the homepage
+        </Link>
+      </div>
     )
   }
 }
