@@ -26,7 +26,7 @@ class ThirdPage extends Component {
         <h1>Travel</h1>
 
         <p>
-          No need to strees, we have a number of Travel partners we are working
+          No need to stress, we have a number of Travel partners we are working
           with to get you on time to our festival! Check out the links below and
           book direct..
         </p>
@@ -94,16 +94,29 @@ class ThirdPage extends Component {
           <div className="center">
             <section className="banners-flex">
               <a
-                href="http://www.tkqlhce.com/m3117dlurlt8I9BDBAA8AACFCHBD"
-                target="_blank"
+                href="http://www.tkqlhce.com/click-9024211-13589057"
+                target="_top"
               >
                 <img
-                  src="http://www.awltovhc.com/fb106jy1qwuFPGIKIHHFHHJMJOIK"
-                  alt="BookingBuddy"
+                  src="http://www.tqlkg.com/image-9024211-13589057"
+                  width="120"
+                  height="60"
+                  alt="New Logo Banner"
                   border="0"
                 />
-                <p>Get great deals on flights</p>
               </a>
+              <a
+                href="http://www.tkqlhce.com/click-9024211-11635001"
+                target="_top"
+              >
+                Flight Deals? No Problem! Find a flight on CheapAir.com
+              </a>
+              <img
+                src="http://www.tqlkg.com/image-9024211-11635001"
+                width="1"
+                height="1"
+                border="0"
+              />
             </section>
             <div className="aroma">
               <a
@@ -133,8 +146,37 @@ class ThirdPage extends Component {
                 border="0"
               />
             </div>
+            <div>
+              <a
+                href="http://www.tkqlhce.com/kh98shqnhp4E57976646655B565"
+                target="_blank"
+              >
+                Book your low cost airfare with CheapAir.com
+              </a>
+              <img
+                src="http://www.awltovhc.com/rn68h48x20MWNPRPOOMOONNTNON"
+                width="1"
+                height="1"
+                border="0"
+              />
+            </div>
+            <div>
+              <a
+                href="http://www.jdoqocy.com/3n115vpyvpxCMDFHFEECEEFMIDHJ"
+                target="_blank"
+              >
+                BookingBuddy Cheap fares
+              </a>
+              <img
+                src="http://www.lduhtrp.net/7a81p59y31NXOQSQPPNPPQXTOSU"
+                width="1"
+                height="1"
+                border="0"
+              />
+            </div>
           </div>
         </main>
+
         <Link className="button-link" to="/">
           Go back to the homepage
         </Link>
