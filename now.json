@@ -2,6 +2,7 @@
   "version": 2,
   "name": "PlugNationFestival",
   "regions": ["all"],
+  "alias": ["plugnationfestival.com", "www.plugnationfestival.com"],
   "builds": [
     {
       "src": "package.json",
