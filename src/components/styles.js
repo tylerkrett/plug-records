@@ -30,13 +30,13 @@ export const Iframe = styled.iframe`
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  min-height: 300px;
-  > iframe {
-    height: 300px;
-  }
+  margin-left: 10px
+  min-height: 400px;
+
 `
 export const Flex = styled.section`
   display: flex;
+  box-sizing: border-box;
   flex-flow: ${({ flexFlow }) => flexFlow};
   flex-wrap: ${({ flexWrap }) => flexWrap};
   padding: ${({ p }) => p};
@@ -108,6 +108,7 @@ export const Video = styled.video(
 export const CarouselWrapper = styled.div(
   ({ width, height, p }) => css`
     margin-bottom: 40px;
+    height: ${({ height }) => height};
     > div > button {
       border-top: none !important;
       border-bottom: none !important;

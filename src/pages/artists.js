@@ -14,10 +14,9 @@ import tion from '../images/tionwayne2.jpg'
 import rask from '../images/RASKWAME2.jpg'
 import amsniper from '../images/AMSNIPER2.jpg'
 
-
 import '../assets/scss/main.scss'
-import PageHeader from '../components/PageHeader';
-import Heading from '../components/Heading';
+import PageHeader from '../components/PageHeader'
+import Heading from '../components/Heading'
 const Artists = () => (
   <div id="artists">
     <PageHeader />

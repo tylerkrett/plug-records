@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import PageHeader from '../components/PageHeader'
+import Heading from '../components/Heading'
 
 import '../assets/scss/main.scss'
 
@@ -23,8 +25,8 @@ class ThirdPage extends Component {
   render() {
     return (
       <div id="travel">
-        <h1>Travel</h1>
-
+        <PageHeader />
+        <Heading text="Travel" />
         <p>
           No need to stress, we have a number of Travel partners we are working
           with to get you on time to our festival! Check out the links below and
@@ -90,89 +92,89 @@ class ThirdPage extends Component {
             >
               <a href="//www.booking.com?aid=1737049">Booking.com</a>
             </ins>
-          </div>
-          <div className="center">
-            <section className="banners-flex">
-              <a
-                href="http://www.tkqlhce.com/click-9024211-13589057"
-                target="_top"
-              >
+            <div className="center">
+              <section className="banners-flex">
+                <a
+                  href="http://www.tkqlhce.com/click-9024211-13589057"
+                  target="_top"
+                >
+                  <img
+                    src="http://www.tqlkg.com/image-9024211-13589057"
+                    width="120"
+                    height="60"
+                    alt="New Logo Banner"
+                    border="0"
+                  />
+                </a>
+                <a
+                  href="http://www.tkqlhce.com/click-9024211-11635001"
+                  target="_top"
+                >
+                  Flight Deals? No Problem! Find a flight on CheapAir.com
+                </a>
                 <img
-                  src="http://www.tqlkg.com/image-9024211-13589057"
-                  width="120"
-                  height="60"
-                  alt="New Logo Banner"
+                  src="http://www.tqlkg.com/image-9024211-11635001"
+                  width="1"
+                  height="1"
                   border="0"
                 />
-              </a>
-              <a
-                href="http://www.tkqlhce.com/click-9024211-11635001"
-                target="_top"
-              >
-                Flight Deals? No Problem! Find a flight on CheapAir.com
-              </a>
-              <img
-                src="http://www.tqlkg.com/image-9024211-11635001"
-                width="1"
-                height="1"
-                border="0"
-              />
-            </section>
-            <div className="aroma">
-              <a
-                className="logo"
-                href="https://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
-                target="_top"
-              >
+              </section>
+              <div className="aroma">
+                <a
+                  className="logo"
+                  href="https://www.jdoqocy.com/fj104zw41w3JTKMOMLLJLMSMOTPP"
+                  target="_top"
+                >
+                  <img
+                    src="https://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
+                    alt="logoaroma"
+                    border="0"
+                  />
+                </a>
+                <a
+                  className="discount"
+                  href="https://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
+                  target="_top"
+                >
+                  <span>Receive 5% off</span>
+                  <span>code: AMOMA5OFF </span>
+                </a>{' '}
                 <img
-                  src="https://www.ftjcfx.com/j7115nswkqo9JACECBB9BCICEJFF"
-                  alt="logoaroma"
+                  src="https://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
+                  alt="placeholder"
+                  width="1"
+                  height="1"
                   border="0"
                 />
-              </a>
-              <a
-                className="discount"
-                href="https://www.jdoqocy.com/pk97shqnhp4E57976646886C8C8"
-                target="_top"
-              >
-                <span>Receive 5% off</span>
-                <span>code: AMOMA5OFF </span>
-              </a>{' '}
-              <img
-                src="https://www.ftjcfx.com/ej116z15u-yJTKMOMLLJLNNLRNRN"
-                alt="placeholder"
-                width="1"
-                height="1"
-                border="0"
-              />
-            </div>
-            <div>
-              <a
-                href="http://www.tkqlhce.com/kh98shqnhp4E57976646655B565"
-                target="_blank"
-              >
-                Book your low cost airfare with CheapAir.com
-              </a>
-              <img
-                src="http://www.awltovhc.com/rn68h48x20MWNPRPOOMOONNTNON"
-                width="1"
-                height="1"
-                border="0"
-              />
-            </div>
-            <div>
-              <a
-                href="http://www.jdoqocy.com/3n115vpyvpxCMDFHFEECEEFMIDHJ"
-                target="_blank"
-              >
-                BookingBuddy Cheap fares
-              </a>
-              <img
-                src="http://www.lduhtrp.net/7a81p59y31NXOQSQPPNPPQXTOSU"
-                width="1"
-                height="1"
-                border="0"
-              />
+              </div>
+              <div>
+                <a
+                  href="http://www.tkqlhce.com/kh98shqnhp4E57976646655B565"
+                  target="_blank"
+                >
+                  Book your low cost airfare with CheapAir.com
+                </a>
+                <img
+                  src="http://www.awltovhc.com/rn68h48x20MWNPRPOOMOONNTNON"
+                  width="1"
+                  height="1"
+                  border="0"
+                />
+              </div>
+              <div>
+                <a
+                  href="http://www.jdoqocy.com/3n115vpyvpxCMDFHFEECEEFMIDHJ"
+                  target="_blank"
+                >
+                  BookingBuddy Cheap fares
+                </a>
+                <img
+                  src="http://www.lduhtrp.net/7a81p59y31NXOQSQPPNPPQXTOSU"
+                  width="1"
+                  height="1"
+                  border="0"
+                />
+              </div>
             </div>
           </div>
         </main>

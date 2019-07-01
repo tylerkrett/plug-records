@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/thumbnail_fredo_image.jpg'
+import pic01 from '../images/thumbnail_FrontPgImage.jpg'
 import pic02 from '../images/thumbnail_gunna.jpg'
 import pic03 from '../images/thumbnail_maps.png'
 import pic04 from '../images/thumbnail_computerScreen.jpg'
@@ -19,8 +19,6 @@ import napaSound from '../images/napaSound.jpg'
 import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
 
 import { Flex, Icon } from './styles'
-
-import { Container } from './styles'
 
 class Main extends React.Component {
   componentDidMount() {
@@ -117,7 +115,10 @@ class Main extends React.Component {
             in a unique festival setting with a combination of both arts and
             culture.
           </p>
-          <p>This will be a one day event with 2 club after parties. </p>
+          <p>
+            This will be a one day event with 3 club after parties: club Black &
+            White. Shuffle club & Igloo rooftop
+          </p>
           {close}
         </article>
 
@@ -356,7 +357,7 @@ class Main extends React.Component {
           }`}
         >
           <h2 className="major">Ticket Sales</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={leafletPic} alt="leaflet" />
           </span>
           <Container id="ticketbox_ph_13490591">
@@ -367,7 +368,7 @@ class Main extends React.Component {
               </a>
               .
             </p>
-          </Container>
+          </Container> */}
           {close}
         </article>
       </div>
