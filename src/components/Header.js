@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
+import VideoCarousel from './VideoCarousel';
+import Heading from './Heading';
 class Header extends Component {
   componentDidMount() {
     window.fnames = []
@@ -35,6 +36,7 @@ class Header extends Component {
               backgrounds. The Plug Festival will be a pioneer in the new hybrid
               music festival culture.
             </p>
+           
             <div id="mc_embed_signup">
               <form
                 action="https://plugnationfestival.us20.list-manage.com/subscribe/post?u=8564c716dccc4c6cb3180916d&amp;id=8fdd7777fd"
@@ -97,18 +99,13 @@ class Header extends Component {
               </p>
             </li>
             <li>
-              <p
-                onClick={() => {
-                  onOpenArticle('tickets')
-                }}
-              >
-                Tickets
-              </p>
+            <a href="/tickets">Tickets/Events</a>
+            
             </li>
             <li>
               <a href="/travel">Travel</a>
             </li>
-            <li>
+            {/* <li>
               <p
                 onClick={() => {
                   onOpenArticle('map')
@@ -116,7 +113,7 @@ class Header extends Component {
               >
                 Map
               </p>
-            </li>
+            </li> */}
             <li>
               <p
                 onClick={() => {
@@ -169,6 +166,9 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+        <div className="content">
+        <Heading fontSize="1.5em" text="Adverts" />
+        <VideoCarousel /></div>
       </header>
     )
   }

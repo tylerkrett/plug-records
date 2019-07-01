@@ -8,7 +8,11 @@ import pic04 from '../images/thumbnail_computerScreen.jpg'
 import pic05 from '../images/socialmedia.png'
 import pic06 from '../images/sponsorlist.png'
 import pic07 from '../images/thumbnail_SPONSORS.jpg'
+import plugRecords from '../images/plugRecords.jpg'
+import futureMovements from '../images/futureMovements.jpg'
+import napaSound from '../images/napaSound.jpg'
 import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
+ import {Flex,Icon} from './styles';
 
 import { Container } from './styles'
 
@@ -132,11 +136,18 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">The Event</h2>
+          <h2 className="major">Info</h2>
           <span className="image main">
             <p>
               HOSTED BY: THE PLUG RECORDS EVENT: THE PLUG TALK ALBUM TOUR PLUG
             </p>
+            <Flex m="0 0 10px 0" alignItems="center"  flexWrap="wrap" justifyContent="space-between">
+            <Icon href="https://www.instagram.com/theplugrecordz/?hl=en" m="5px" background={`url(${plugRecords}) no-repeat 50% white / contain`} height="100px" width="140px" /> 
+            <Icon href="http://www.futuremovementsfestival.com/"  m="5px" background={`url(${futureMovements}) no-repeat 50% white  / contain`} height="100px" width="140px" /> 
+            <Icon  href="https://napasound.com/" m="5px" background={`url(${napaSound}) no-repeat 50% white / contain`} height="100px" width="140px" /> 
+
+              </Flex>
+
             <p>
               NATION DATE: 9TH JULY 2019 EXPECTED ATTENDEES: 5,000 - 7,000
               VENUE: THE DOCK, AGIA THEKLA RD AYIA NAPA, CYPRUS (A TT ACHED TO
@@ -173,7 +184,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Potential Partners</h2>
+          <h2 className="major">Sponsors</h2>
           <span className="image main">
             <img src={pic07} alt="" />
           </span>
@@ -283,6 +294,7 @@ class Main extends React.Component {
           </Container>
           {close}
         </article>
+        
       </div>
     )
   }

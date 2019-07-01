@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, Iframe } from './styles'
 
-const Artists = ({ img, src }) => (
+const Artists = ({ img, src, m, p }) => (
   <Image img={img}>
     <Iframe
       src={src}
