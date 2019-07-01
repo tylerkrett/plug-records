@@ -19,7 +19,6 @@ const VideoCarousel = () => {
     infinite: true,
     speed: 1000,
     slidesToShow: 2,
-    autoplay: true,
     pauseOnHover: true
   };
   return(
