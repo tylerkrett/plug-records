@@ -16,7 +16,7 @@ import clipper from '../images/clipper.png'
 import plugRecords from '../images/plugRecords.jpg'
 import futureMovements from '../images/futureMovements.jpg'
 import napaSound from '../images/napaSound.jpg'
-import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
+
 
 import { Flex, Icon } from './styles'
 

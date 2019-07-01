@@ -38,6 +38,7 @@ class ThirdPage extends Component {
           width="1"
           height="1"
           border="0"
+          alt="why"
         />
 
         <main>
@@ -116,6 +117,7 @@ class ThirdPage extends Component {
                   src="http://www.tqlkg.com/image-9024211-11635001"
                   width="1"
                   height="1"
+                  alt="why"
                   border="0"
                 />
               </section>
@@ -159,6 +161,7 @@ class ThirdPage extends Component {
                   width="1"
                   height="1"
                   border="0"
+                  alt="why"
                 />
               </div>
               <div>
@@ -173,6 +176,7 @@ class ThirdPage extends Component {
                   width="1"
                   height="1"
                   border="0"
+                  alt="why"
                 />
               </div>
             </div>

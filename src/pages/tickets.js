@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'gatsby'
-import Slider from 'react-slick'
 
-import Image from '../components/VideoHover'
 import Heading from '../components/Heading'
 import VideoCarousel from '../components/VideoCarousel'
 import PageHeader from '../components/PageHeader'
@@ -14,8 +12,8 @@ import leafletPic2 from '../images/plugnation-afterparty-FRONT.jpg'
 import leafletPic3 from '../images/plugnation-afterpartyinsta2.jpg'
 import leafletPic4 from '../images/plugnation-preparty-FRONT2.jpg'
 
-
 import { Container, Icon, Flex } from '../components/styles'
+import { valueToObjectRepresentation } from 'apollo-utilities';
 
 const Tickets = () => {
   useEffect(() => {
@@ -32,24 +30,24 @@ const Tickets = () => {
     lo.async = true
     lo.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13532918;type=embedded'
-    var s = document.getElementsByTagName('script')[0]
-    s.parentNode.insertBefore(lo, s)
+    var v = document.getElementsByTagName('script')[0]
+    valueToObjectRepresentation.parentNode.insertBefore(lo, v)
 
     var co = document.createElement('script')
     co.type = 'text/javascript'
     co.async = true
     co.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13555961;type=embedded'
-    var s = document.getElementsByTagName('script')[0]
-    s.parentNode.insertBefore(co, s)
+    var z = document.getElementsByTagName('script')[0]
+    z.parentNode.insertBefore(co, z)
 
     var ho = document.createElement('script')
     ho.type = 'text/javascript'
     ho.async = true
     ho.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13565543;type=embedded'
-    var s = document.getElementsByTagName('script')[0]
-    s.parentNode.insertBefore(ho, s)
+    var r= document.getElementsByTagName('script')[0]
+    r.parentNode.insertBefore(ho, r)
   })
   return (
     <div id="tickets">
@@ -86,36 +84,35 @@ const Tickets = () => {
           across 4 venues - ClubIce, Club Black&White, Shuffle & Pambos Napa
           Rocks Hotel!
         </p>
-        <Flex alignItems="center" justifyContent="space-evenly" >
-        <Icon
+        <Flex alignItems="center" justifyContent="space-evenly">
+          <Icon
             m="5px"
             background={`url(${leafletPic}) no-repeat 50%  / contain`}
             height="400px"
             width="300px"
           />
-       <Icon
+          <Icon
             m="5px"
             background={`url(${leafletPic2}) no-repeat 50%  / contain`}
             height="400px"
             width="300px"
           />
-                 <Icon
+          <Icon
             m="5px"
             background={`url(${leafletPic3}) no-repeat 50%  / contain`}
             height="400px"
             width="300px"
           />
 
-<Icon
+          <Icon
             m="5px"
             background={`url(${leafletPic4}) no-repeat 50%  / contain`}
             height="400px"
             width="300px"
           />
-          </Flex>
-          <Heading fontSize="2em" text="The Dock" />
+        </Flex>
+        <Heading fontSize="2em" text="The Dock" />
         <Flex height="500px">
-   
           <Container id="ticketbox_ph_13490591">
             <p>
               To buy tickets for this event please visit our events page:{' '}
@@ -129,7 +126,6 @@ const Tickets = () => {
 
         <Heading fontSize="2em" text="Sunday 7 July ROGER SANCHEZ at CLUBICE" />
         <Flex>
-     
           <Container id="ticketbox_ph_13532918">
             <p>
               To buy tickets for this event please visit our events page:{' '}
@@ -143,9 +139,11 @@ const Tickets = () => {
             </p>
           </Container>
         </Flex>
-        <Heading fontSize="2em" text=" Monday 8 July KENNY ALLSTAR & D BLOCK EUROPE at CLUBICE" />
+        <Heading
+          fontSize="2em"
+          text=" Monday 8 July KENNY ALLSTAR & D BLOCK EUROPE at CLUBICE"
+        />
         <Flex>
-         
           <Container id="ticketbox_ph_13555961">
             <p>
               To buy tickets for this event please visit our events page:{' '}
@@ -159,13 +157,13 @@ const Tickets = () => {
             </p>
           </Container>
         </Flex>
-   
 
-        <Heading fontSize="2em" text="    Sunday 14 July MARCO BAILEY at CLUBICE" />
-       
-    
+        <Heading
+          fontSize="2em"
+          text="    Sunday 14 July MARCO BAILEY at CLUBICE"
+        />
+
         <Flex>
-      
           <Container id="ticketbox_ph_13565543">
             <p>
               To buy tickets for this event please visit our events page:{' '}
@@ -178,14 +176,14 @@ const Tickets = () => {
               .
             </p>
           </Container>
-
-          
         </Flex>
-        <Heading fontSize="2em" text="  Tuesday 9 July PLUG NATION OFFICIAL AFTER-PARTY - 1 Ticket -3 Venues:
+        <Heading
+          fontSize="2em"
+          text="  Tuesday 9 July PLUG NATION OFFICIAL AFTER-PARTY - 1 Ticket -3 Venues:
           Club Black & White with CHARLIE SLOTH shuffle club with CARNAO BEATS
-          Igloo Rooftop with GEORGE FINGAS" />
+          Igloo Rooftop with GEORGE FINGAS"
+        />
         <Flex>
-         
           <Container id="ticketbox_ph_13552124">
             <p>
               To buy tickets for this event please visit our events page:{' '}
@@ -200,7 +198,6 @@ const Tickets = () => {
         </Flex>
         <VideoCarousel />
       </Flex>
-  
 
       <Link className="button-link" to="/">
         Go back to the homepage
