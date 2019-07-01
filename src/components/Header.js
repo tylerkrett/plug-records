@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import VideoCarousel from './VideoCarousel';
-import Heading from './Heading';
+import VideoCarousel from './VideoCarousel'
+import Heading from './Heading'
 class Header extends Component {
   componentDidMount() {
     window.fnames = []
@@ -36,7 +36,7 @@ class Header extends Component {
               backgrounds. The Plug Festival will be a pioneer in the new hybrid
               music festival culture.
             </p>
-           
+
             <div id="mc_embed_signup">
               <form
                 action="https://plugnationfestival.us20.list-manage.com/subscribe/post?u=8564c716dccc4c6cb3180916d&amp;id=8fdd7777fd"
@@ -99,8 +99,7 @@ class Header extends Component {
               </p>
             </li>
             <li>
-            <a href="/tickets">Tickets/Events</a>
-            
+              <a href="/tickets">Tickets/Events</a>
             </li>
             <li>
               <a href="/travel">Travel</a>
@@ -114,6 +113,10 @@ class Header extends Component {
                 Map
               </p>
             </li> */}
+          </ul>
+        </nav>
+        <nav>
+          <ul>
             <li>
               <p
                 onClick={() => {
@@ -123,10 +126,6 @@ class Header extends Component {
                 Info
               </p>
             </li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
             <li>
               <p
                 onClick={() => {
@@ -142,11 +141,11 @@ class Header extends Component {
                   onOpenArticle('partners')
                 }}
               >
-                Partners
+                Sponsors
               </p>
             </li>
 
-            <li>
+            {/* <li>
               <p
                 onClick={() => {
                   onOpenArticle('sponsorship')
@@ -154,7 +153,7 @@ class Header extends Component {
               >
                 Sponsorship
               </p>
-            </li>
+            </li> */}
             <li>
               <p
                 onClick={() => {
@@ -167,8 +166,9 @@ class Header extends Component {
           </ul>
         </nav>
         <div className="content">
-        <Heading fontSize="1.5em" text="Adverts" />
-        <VideoCarousel /></div>
+          <Heading fontSize="1.5em" text="Adverts" />
+          <VideoCarousel />
+        </div>
       </header>
     )
   }

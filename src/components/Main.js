@@ -7,12 +7,20 @@ import pic03 from '../images/thumbnail_maps.png'
 import pic04 from '../images/thumbnail_computerScreen.jpg'
 import pic05 from '../images/socialmedia.png'
 import pic06 from '../images/sponsorlist.png'
-import pic07 from '../images/thumbnail_SPONSORS.jpg'
+import sneakerPlug from '../images/sneakerPlug.png'
+import grmDaily from '../images/grmDaily.jpg'
+import auVodka from '../images/auVodka.jpg'
+import club from '../images/club100.jpg'
+import hotbox from '../images/hotbox420.png'
+import clipper from '../images/clipper.png'
 import plugRecords from '../images/plugRecords.jpg'
 import futureMovements from '../images/futureMovements.jpg'
 import napaSound from '../images/napaSound.jpg'
 import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
- import {Flex,Icon} from './styles';
+
+import { Flex, Icon } from './styles'
+
+import { Container } from './styles'
 
 class Main extends React.Component {
   componentDidMount() {
@@ -139,12 +147,34 @@ class Main extends React.Component {
             <p>
               HOSTED BY: THE PLUG RECORDS EVENT: THE PLUG TALK ALBUM TOUR PLUG
             </p>
-            <Flex m="0 0 10px 0" alignItems="center"  flexWrap="wrap" justifyContent="space-between">
-            <Icon href="https://www.instagram.com/theplugrecordz/?hl=en" m="5px" background={`url(${plugRecords}) no-repeat 50% white / contain`} height="100px" width="140px" /> 
-            <Icon href="http://www.futuremovementsfestival.com/"  m="5px" background={`url(${futureMovements}) no-repeat 50% white  / contain`} height="100px" width="140px" /> 
-            <Icon  href="https://napasound.com/" m="5px" background={`url(${napaSound}) no-repeat 50% white / contain`} height="100px" width="140px" /> 
-
-              </Flex>
+            <Flex
+              m="0 0 10px 0"
+              alignItems="center"
+              flexWrap="wrap"
+              justifyContent="space-between"
+            >
+              <Icon
+                href="https://www.instagram.com/theplugrecordz/?hl=en"
+                m="5px"
+                background={`url(${plugRecords}) no-repeat 50% white / contain`}
+                height="100px"
+                width="140px"
+              />
+              <Icon
+                href="http://www.futuremovementsfestival.com/"
+                m="5px"
+                background={`url(${futureMovements}) no-repeat 50% white  / contain`}
+                height="100px"
+                width="140px"
+              />
+              <Icon
+                href="https://napasound.com/"
+                m="5px"
+                background={`url(${napaSound}) no-repeat 50% white / contain`}
+                height="100px"
+                width="140px"
+              />
+            </Flex>
 
             <p>
               NATION DATE: 9TH JULY 2019 EXPECTED ATTENDEES: 5,000 - 7,000
@@ -183,9 +213,57 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Sponsors</h2>
-          <span className="image main">
-            <img src={pic07} alt="" />
-          </span>
+          <p>Proud sponsors of Plug Nation Festival</p>
+          <Flex
+            m="0 0 10px 0"
+            alignItems="center"
+            flexWrap="wrap"
+            justifyContent="space-between"
+          >
+            <Icon
+              href="http://grmdaily.com/"
+              m="5px"
+              background={`url(${grmDaily}) no-repeat 50%  / contain`}
+              height="100px"
+              width="140px"
+            />
+            <Icon
+              href="https://www.instagram.com/sneakplug_/?hl=en"
+              m="5px"
+              background={`url(${sneakerPlug}) no-repeat 50%   / contain`}
+              height="100px"
+              width="140px"
+            />
+            <Icon
+              href="http://www.auvodka.co.uk/"
+              m="5px"
+              background={`url(${auVodka}) no-repeat 50%  / contain`}
+              height="100px"
+              width="140px"
+            />
+            <Icon
+              href="http://www.clipperukltd.co.uk/lighters"
+              m="5px"
+              background={`url(${clipper}) no-repeat 50%  / contain`}
+              height="100px"
+              width="140px"
+            />
+
+            <Icon
+              m="5px"
+              background={`url(${club}) no-repeat 50%  / contain`}
+              height="100px"
+              width="140px"
+            />
+
+            <Icon
+              m="5px"
+              background={`url(${hotbox}) no-repeat 50%  / contain`}
+              height="100px"
+              width="140px"
+            />
+          </Flex>
+
           {close}
         </article>
 
@@ -281,7 +359,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={leafletPic} alt="leaflet" />
           </span>
-          <div id="ticketbox_ph_13490591">
+          <Container id="ticketbox_ph_13490591">
             <p>
               To buy tickets for this event please visit our events page:{' '}
               <a href="https://www.skiddle.com/whats-on/cyprus/The-Dock/Plug-Nation-Festival/13490591/">
@@ -289,10 +367,9 @@ class Main extends React.Component {
               </a>
               .
             </p>
-          </div>
+          </Container>
           {close}
         </article>
-        
       </div>
     )
   }
