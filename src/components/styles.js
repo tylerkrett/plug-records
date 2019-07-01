@@ -24,3 +24,12 @@ export const Iframe = styled.iframe`
   width: 100%;
   height: 100%;
 `
+
+export const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  > iframe {
+    height: 300px;
+  }
+`

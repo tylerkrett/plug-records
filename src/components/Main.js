@@ -10,6 +10,8 @@ import pic06 from '../images/sponsorlist.png'
 import pic07 from '../images/thumbnail_SPONSORS.jpg'
 import leafletPic from '../images/plugnationleaflet-4flyer2.jpg'
 
+import { Container } from './styles'
+
 class Main extends React.Component {
   componentDidMount() {
     var po = document.createElement('script')
@@ -270,7 +272,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={leafletPic} alt="leaflet" />
           </span>
-          <div id="ticketbox_ph_13490591">
+          <Container id="ticketbox_ph_13490591">
             <p>
               To buy tickets for this event please visit our events page:{' '}
               <a href="https://www.skiddle.com/whats-on/cyprus/The-Dock/Plug-Nation-Festival/13490591/">
@@ -278,7 +280,7 @@ class Main extends React.Component {
               </a>
               .
             </p>
-          </div>
+          </Container>
           {close}
         </article>
       </div>
