@@ -6,8 +6,7 @@ import yxngBane from '../images/yxngbane2.jpg'
 import mHuncho from '../images/mhuncho5.jpg'
 import gunna from '../images/gunna5.jpg'
 import charlie from '../images/charliesloth5.jpg'
-import youngThug from '../images/youngthug2.jpg'
-import fredo from '../images/FREDO2.jpg'
+import reaSremmurd from '../images/reareaSremmurd.png'
 import dblock from '../images/DBLOCKEU2.jpg'
 import kenny from '../images/kennyallstar2.jpg'
 import nafe from '../images/NAFESMALLZ2.jpg'
@@ -15,16 +14,19 @@ import tion from '../images/tionwayne2.jpg'
 import rask from '../images/RASKWAME2.jpg'
 import amsniper from '../images/AMSNIPER2.jpg'
 
-import '../assets/scss/main.scss'
 
+import '../assets/scss/main.scss'
+import PageHeader from '../components/PageHeader';
+import Heading from '../components/Heading';
 const Artists = () => (
   <div id="artists">
-    <h1>Headliners</h1>
+    <PageHeader />
+    <Heading text="Headliners" />
     <div>
       <Image
-        img={youngThug}
-        alt="young-thug"
-        src="https://www.youtube.com/embed/yCPCqbwfe58"
+        img={reaSremmurd}
+        alt="Rae"
+        src="https://www.youtube.com/embed/95Rzsn-zjr0"
       />
       <Image
         img={gunna}
@@ -32,18 +34,14 @@ const Artists = () => (
         src="https://www.youtube.com/embed/5z-KnXYj4oE"
       />
     </div>
-    <h1>Artists</h1>
+    <Heading text="Artist" />
     <div>
       <Image
         img={yxngBane}
         alt="yxngBane"
         src="https://www.youtube.com/embed/J1UxLOR0W4w"
       />
-      <Image
-        img={fredo}
-        alt="fredo"
-        src="https://www.youtube.com/embed/v2MpgUK80u4"
-      />
+
       <Image
         img={tion}
         alt="tion"
