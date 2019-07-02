@@ -50,6 +50,12 @@ export const Flex = styled.section`
   background: ${({ background }) => background};
 `
 
+export const TicketsWrapper = styled(Flex)(({})=> css`
+
+@media screen and (max-width: 900px) {
+padding: 20px;
+}`);
+
 export const Icon = styled.a`
   display: inline-block;
   text-decoration: none;

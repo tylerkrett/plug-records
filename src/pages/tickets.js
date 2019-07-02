@@ -12,7 +12,7 @@ import leafletPic2 from '../images/plugnation-afterparty-FRONT.jpg'
 import leafletPic3 from '../images/plugnation-afterpartyinsta2.jpg'
 import leafletPic4 from '../images/plugnation-preparty-FRONT2.jpg'
 
-import { Container, Icon, Flex } from '../components/styles'
+import { Container, Icon, Flex, TicketsWrapper } from '../components/styles'
 
 const Tickets = () => {
   useEffect(() => {
@@ -51,9 +51,9 @@ const Tickets = () => {
   return (
     <div id="tickets">
       <PageHeader />
-      <Heading text="Tickets/Events" />
+      <Heading text="Tickets / Events" />
 
-      <Flex p="50px" flexDirection="column">
+      <TicketsWrapper p="50px" flexDirection="column">
         <h2>Come & Party at Europe's biggest day party</h2>
 
         <p>
@@ -83,7 +83,7 @@ const Tickets = () => {
           across 4 venues - ClubIce, Club Black&White, Shuffle & Pambos Napa
           Rocks Hotel!
         </p>
-        <Flex alignItems="center" justifyContent="space-evenly">
+        <Flex alignItems="center" justifyContent="space-evenly" flexWrap="wrap">
           <Icon
             m="5px"
             background={`url(${leafletPic}) no-repeat 50%  / contain`}
@@ -159,7 +159,7 @@ const Tickets = () => {
 
         <Heading
           fontSize="2em"
-          text="    Sunday 14 July MARCO BAILEY at CLUBICE"
+          text=" Sunday 14 July MARCO BAILEY at CLUBICE"
         />
 
         <Flex>
@@ -196,7 +196,7 @@ const Tickets = () => {
           </Container>
         </Flex>
         <VideoCarousel />
-      </Flex>
+      </TicketsWrapper>
 
       <Link className="button-link" to="/">
         Go back to the homepage
