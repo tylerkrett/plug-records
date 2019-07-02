@@ -13,7 +13,6 @@ import leafletPic3 from '../images/plugnation-afterpartyinsta2.jpg'
 import leafletPic4 from '../images/plugnation-preparty-FRONT2.jpg'
 
 import { Container, Icon, Flex } from '../components/styles'
-import { valueToObjectRepresentation } from 'apollo-utilities';
 
 const Tickets = () => {
   useEffect(() => {
@@ -30,24 +29,24 @@ const Tickets = () => {
     lo.async = true
     lo.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13532918;type=embedded'
-    var v = document.getElementsByTagName('script')[0]
-    valueToObjectRepresentation.parentNode.insertBefore(lo, v)
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(lo, s)
 
     var co = document.createElement('script')
     co.type = 'text/javascript'
     co.async = true
     co.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13555961;type=embedded'
-    var z = document.getElementsByTagName('script')[0]
-    z.parentNode.insertBefore(co, z)
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(co, s)
 
     var ho = document.createElement('script')
     ho.type = 'text/javascript'
     ho.async = true
     ho.src =
       'https://www.skiddle.com/infofeed/ticketpage.php?ilid=13565543;type=embedded'
-    var r= document.getElementsByTagName('script')[0]
-    r.parentNode.insertBefore(ho, r)
+    var s = document.getElementsByTagName('script')[0]
+    s.parentNode.insertBefore(ho, s)
   })
   return (
     <div id="tickets">
