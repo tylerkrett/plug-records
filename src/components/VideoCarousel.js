@@ -18,7 +18,6 @@ const VideoCarousel = ({ slidesToShow = 2, height }) => {
     infinite: true,
     speed: 1000,
     slidesToShow: slidesToShow,
-    pauseOnHover: true,
   }
   return (
     <CarouselWrapper height={height}>
